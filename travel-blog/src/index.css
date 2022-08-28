@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #252700;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.material-symbols-outlined{
+  margin:auto 0;
+}
+.navText{
+  padding-left: 10px;
+  font-family: 'Aboreto', cursive;
+  font-weight: bolder;
+  color: aliceblue;
+  margin:auto 0;
+
+}
+
+.card{
+  display: flex;
+  /* flex-direction: row; */
+  margin-left: 350px;
+  padding: 20px;
+  
+}
+
+.cardImg{
+  border-radius: 10px;
+  display: flex;  
+  justify-content: center;
+  width: 270px;
+  height: 340px;
+}
+.stats{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.description{
+  width: 500px;
+}
+
+span{
+  margin: 5px;
+}
+
+.dateText{
+  margin-left: 0;;
+  font-weight: bold;
+}
+.locationLogo{
+  margin-left: 0;
+}
+
+a{
+  color: rgb(53, 53, 53);
+  font-family: 'Quicksand', sans-ser;
+}
